@@ -17,3 +17,11 @@
 ## 5. By following the example of the `hello` action in Listing 1.9, add a second action called `goodbye` that renders the text “goodbye, world!”. Edit the routes file from Listing 1.11 so that the root route goes to goodbye instead of to hello
 
 🌎👋
+
+## 6. Arrange for your production app to display “hola, mundo!”.
+
+👍
+
+## 7. Arrange for the root route to display the result of the goodbye action.
+
+👍
