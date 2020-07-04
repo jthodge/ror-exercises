@@ -25,3 +25,11 @@
 ## 7. Arrange for the root route to display the result of the goodbye action.
 
 👍
+
+## 8. Run `heroku help` to see a list of Heroku commands. What is the command to display logs for an app?
+
+`heroku logs`
+
+## 9. Use the command identified in the previous exercise to inspect the activity on your application. What was the most recent event?
+
+`2020-07-04T12:48:10.100211+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tranquil-capitol-reef-63850.herokuapp.com request_id=40b8bb89-583f-4cfd-9633-a4ce79459d3a fwd="67.83.196.95" dyno=web.1 connect=1ms service=9ms status=200 bytes=143 protocol=https`
