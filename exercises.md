@@ -33,3 +33,21 @@
 ## 9. Use the command identified in the previous exercise to inspect the activity on your application. What was the most recent event?
 
 `2020-07-04T12:48:10.100211+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=tranquil-capitol-reef-63850.herokuapp.com request_id=40b8bb89-583f-4cfd-9633-a4ce79459d3a fwd="67.83.196.95" dyno=web.1 connect=1ms service=9ms status=200 bytes=143 protocol=https`
+
+## 10. Create a new user, then use your browser’s HTML inspector to determine the CSS id for the text “User was successfully created.” What happens when you refresh your browser?
+
+`#notice`
+
+On page refresh, the paragraph element with the `notice` id remains in the DOM, but the _“User was successfully created.”_ string is no longer present within the element.
+
+## 11. What happens if you try to create a user with a name but no email address?
+
+The user is successfully created without an email address.
+
+## 12. What happens if you try create a user with an invalid email address, like “@example.com”?
+
+The user is successfully created with the invalid email address.
+
+## 13. Destroy each of the users created in the previous exercises. Does Rails display a message by default when a user is destroyed?
+
+Yes, it displays the _"User was successfully destroyed."_ message.
